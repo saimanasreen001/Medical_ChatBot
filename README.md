@@ -44,7 +44,7 @@ Llama2-Medical-Chatbot/
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/saimanasreen001/Medical_ChatBot.git
 cd Llama2-Medical-Chatbot
 ```
 

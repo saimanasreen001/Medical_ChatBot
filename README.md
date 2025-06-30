@@ -23,21 +23,21 @@ The **Llama2 Medical Chatbot** is an AI-powered assistant designed to answer med
 ## Project Structure
 ```
 Llama2-Medical-Chatbot/
-├── chainlit.md                # Chainlit UI welcome/config markdown
-├── ingest.py                  # Script to build the FAISS vectorstore from PDFs
-├── model.py                   # Main app: model loading, QA chain, Chainlit handlers
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-├── data/                      # Folder for medical PDF documents
+├── chainlit.md                
+├── ingest.py                  
+├── model.py                   
+├── requirements.txt           
+├── README.md                  
+├── data/                      
 │   └── 71763-gale-encyclopedia-of-medicine.-vol.-1.-2nd-ed.pdf
-├── vectorstore/               # Vectorstore directory
+├── vectorstore/               
 │   └── db_faiss/
 │       ├── index.faiss
 │       └── index.pkl
-├── TheBloke/                  # Folder for Llama-2 model file (not tracked by git)
+├── TheBloke/                  
 │   └── llama-2-7b-chat.ggmlv3.q8_0.bin
-├── venv/ or .venv/            # Python virtual environment (not tracked by git)
-└── .gitignore                 # Git ignore file
+├── venv/          
+└── .gitignore                 
 ```
 
 ## Setup Instructions

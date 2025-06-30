@@ -22,7 +22,7 @@ The **Llama2 Medical Chatbot** is an AI-powered assistant designed to answer med
 
 ## Project Structure
 ```
-Llama2-Medical-Chatbot/
+Medical_Chatbot/
 ├── chainlit.md                
 ├── ingest.py                  
 ├── model.py                   
@@ -45,7 +45,7 @@ Llama2-Medical-Chatbot/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/saimanasreen001/Medical_ChatBot.git
-cd Llama2-Medical-Chatbot
+cd Medical_Chatbot
 ```
 
 ### 2. Create and Activate a Virtual Environment

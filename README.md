@@ -78,10 +78,3 @@ chainlit run model.py
 ```
 - Open [http://localhost:8000](http://localhost:8000) in your Windows browser.
 
-## Notes
-- The `.gitignore` file excludes large files and virtual environments (`TheBloke/`, `venv/`, `.venv/`).
-- The app runs in WSL; always use your Windows browser to access the UI.
-- If you update your PDFs, re-run `ingest.py` to refresh the vectorstore.
-- For best results, use the same model and embedding settings as in `model.py`.
-
-
